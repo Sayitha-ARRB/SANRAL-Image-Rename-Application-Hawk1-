@@ -5,7 +5,6 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from decimal import Decimal, ROUND_CEILING
 
-
 # ----------------- Helper functions -----------------
 
 def extract_road_name(filename: str) -> str:
@@ -231,7 +230,6 @@ class RenamerApp:
             messagebox.showerror("Error", "Please select all inputs.")
             return
         rename_images(self.csv_path, self.image_folder, self.output_folder)        
-
 
 # ----------------------- Run ------------------------
 
